@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>3文字並び替え</title>
+    <meta name="viewport"
+        content="width=320,
+      height=480,
+      initial-scale=1.0,
+      minimum-scale=1.0,
+      maximum-scale=2.0,
+      user-scalable=yes" />
+</head>
+
+<body>
+    <div id="start">
+        <p>正しい順序で、文字を軽くタッチしてください！</p>
+    </div>
+
+    <div id="game">
+        <h1></h1>
+
+        <div id="field">
+            <div id="answer-area">
+                <div class="answer">1</div>
+                <div class="answer">2</div>
+                <div class="answer">3</div>
+            </div>
+
+            <div id="select-area">
+                <div class="select">あ</div>
+                <div class="select">さ</div>
+                <div class="select">り</div>
+            </div>
+        </div>
+
+        <div id="btn">
+            <div class="left-btn">
+                <button onclick="Judgment()">OK</button>
+                <button onclick="showQuestion()">やり直す</button>
+            </div>
+
+            <div class="right-btn">
+                <button onclick="showQuestion()">やり直す</button>
+                <button onclick="Judgment()">OK</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="next">
+    </div>
+
+    <audio controls src="https://zukisuzukibgm.com/wp-content/uploads/2024/09/Try.mp3"></audio>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
