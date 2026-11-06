@@ -86,3 +86,10 @@ audio { width: 280px; height: 10px; margin: 0.1px;}
 .select.used{
     visibility:hidden;
 }
+/* 全画面表示ボタン */
+.fullscreen-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+}
