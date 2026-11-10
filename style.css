@@ -93,3 +93,31 @@ audio { width: 280px; height: 10px; margin: 0.1px;}
     right: 10px;
     z-index: 9999;
 }
+
+#control-area {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#btn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0;
+}
+
+audio {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 問題文（貝・動物など）の表示調整 */
+h1 {
+    font-size: 3em;
+    transform: translateY(20px);
+}
